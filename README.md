@@ -1,10 +1,27 @@
 # COVID Data Pipeline
 
-Simple ETL pipeline that:
-- reads `covid_data.csv`
-- cleans & transforms with pandas
-- loads to PostgreSQL (`covid_stats` table)
-- generates visualizations (Matplotlib)
+This project demonstrates a simple **data engineering workflow** for processing, storing, and visualizing COVID-19 data using Python, Pandas, PostgreSQL, and Matplotlib.
+
+
+## Project Overview
+
+The goal of this project is to build a pipeline that:
+1. **Extracts** COVID-19 data from a CSV file.
+2. **Transforms** the data by selecting relevant columns and cleaning missing values.
+3. **Loads (ETL)** the data into a PostgreSQL database.
+4. **Visualizes** the top countries with the highest total COVID-19 cases.
+
+---
+
+## Tech Stack
+
+- **Python 3**
+- **Pandas** – Data manipulation
+- **SQLAlchemy** – Database connectivity
+- **PostgreSQL** – Data storage
+- **Matplotlib** – Data visualization
+
+---
 
 ## Files
 - `covid_pipeline.py` — main script
@@ -34,4 +51,16 @@ Simple ETL pipeline that:
    ```bash
    source venv/bin/activate
    python3 covid_pipeline.py
+
+## Example Output
+
+   A horizontal bar graph showing:
+   X-axis: Total COVID-19 cases
+   Y-axis: Country names
+   Top 20 locations displayed in descending order.
+
+# Author
+  Matthew Lawrence L
+  gmailto:lawrence82773824@gmail.com
+  github
  
