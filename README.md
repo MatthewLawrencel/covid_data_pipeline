@@ -62,6 +62,6 @@ The goal of this project is to build a pipeline that:
 # Author
   Matthew Lawrence L
   
-  Gmail:lawrence82773824@gmail.com
+  lawrence82773824@gmail.com
   
  
