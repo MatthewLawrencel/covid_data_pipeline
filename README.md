@@ -55,9 +55,9 @@ The goal of this project is to build a pipeline that:
 ## Example Output
 
    A horizontal bar graph showing:
-   X-axis: Total COVID-19 cases
-   Y-axis: Country names
-   Top 20 locations displayed in descending order.
+   - X-axis: Total COVID-19 cases
+   - Y-axis: Country names
+   - Top 20 locations displayed in descending order.
 
 # Author
   Matthew Lawrence L
