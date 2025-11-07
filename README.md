@@ -61,6 +61,7 @@ The goal of this project is to build a pipeline that:
 
 # Author
   Matthew Lawrence L
-  gmailto:lawrence82773824@gmail.com
-  github
+  
+  Gmail:lawrence82773824@gmail.com
+  
  
