@@ -19,16 +19,19 @@ Simple ETL pipeline that:
    python3 -m venv venv
    source venv/bin/activate
    
-2. Create Postgres DB:            
+2. Create Postgres DB:
+   ```bash           
    sudo -u postgres psql
    CREATE DATABASE covid_db;
    \q
    
-4. Create .env from template and edit:
+3. Create .env from template and edit:
+   ```bash
    cp .env.template .env
    #then edit .env with your DB password
 
-5. Run the pipeline:
+4. Run the pipeline:
+   ```bash
    source venv/bin/activate
    python3 covid_pipeline.py
  
