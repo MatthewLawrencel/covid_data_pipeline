@@ -68,7 +68,6 @@ covid_data_pipeline/
 # Author
   Matthew Lawrence L
   
-  Gmail:lawrence82773824@gmail.com
   lawrence82773824@gmail.com
   
  
